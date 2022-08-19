@@ -99,9 +99,11 @@ img {
 .name-site span {
   font-weight: 900;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 998px) {
   .bar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
