@@ -100,10 +100,9 @@ img {
   font-weight: 900;
 }
 
-@media (min-width: 998px) {
+@media (min-width: 1200px) {
   .bar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -113,7 +112,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .contact {
     align-items: flex-end;
   }
@@ -176,7 +175,7 @@ img {
 }
 @media (min-width: 768px) {
   .slogan h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 .slogan p {
@@ -310,3 +309,26 @@ img {
   }
 }
 /* Footer */
+.footer {
+  height: 55rem;
+  background-image: url(../img/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  color: var(--white);
+}
+.footer a {
+  color: var(--white);
+  font-size: 2rem;
+}
+.copyright {
+  background-color: var(--black);
+  text-align: center;
+  margin: 2rem 0 0 0;
+  padding: 1rem;
+}
